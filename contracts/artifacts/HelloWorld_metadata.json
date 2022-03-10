@@ -1,0 +1,77 @@
+{
+    "compiler": {
+        "version": "0.8.7+commit.e28d00a7"
+    },
+    "language": "Solidity",
+    "output": {
+        "abi": [
+            {
+                "inputs": [],
+                "stateMutability": "nonpayable",
+                "type": "constructor"
+            },
+            {
+                "inputs": [],
+                "name": "getIntro",
+                "outputs": [
+                    {
+                        "internalType": "string",
+                        "name": "",
+                        "type": "string"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "string",
+                        "name": "_intro",
+                        "type": "string"
+                    }
+                ],
+                "name": "setIntro",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            }
+        ],
+        "devdoc": {
+            "kind": "dev",
+            "methods": {},
+            "version": 1
+        },
+        "userdoc": {
+            "kind": "user",
+            "methods": {},
+            "version": 1
+        }
+    },
+    "settings": {
+        "compilationTarget": {
+            "contracts/hello_world.sol": "HelloWorld"
+        },
+        "evmVersion": "london",
+        "libraries": {},
+        "metadata": {
+            "bytecodeHash": "ipfs"
+        },
+        "optimizer": {
+            "enabled": false,
+            "runs": 200
+        },
+        "remappings": []
+    },
+    "sources": {
+        "contracts/hello_world.sol": {
+            "keccak256": "0xf3259db20bfc4b8c08ef0399da4800b1f72ae301e02f5f79f088c6f99722ad72",
+            "license": "MIT",
+            "urls": [
+                "bzz-raw://cf6cdd5491fce0c4ead8ad16376a7e943376689ae41cb38ef88a20c51eec7441",
+                "dweb:/ipfs/QmVh3fF6fYtrFRQwUvVgV3ihqFrPmmG9srAMrxt3r5Mpx9"
+            ]
+        }
+    },
+    "version": 1
+}
